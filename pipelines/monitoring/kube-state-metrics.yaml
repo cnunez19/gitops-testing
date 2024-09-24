@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/cnunez19/gitops-testing.git
     targetRevision: main
-    path: kube-state-metrics
+    path: applications/kube-state-metrics
   destination:
     server: https://kubernetes.default.svc
     namespace: kube-system
